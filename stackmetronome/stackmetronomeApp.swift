@@ -8,10 +8,16 @@
 import SwiftUI
 
 @main
-struct stackmetronomeApp: App {
+struct StackMetronomeApp: App {
+    @StateObject private var stackStore = StackStore()
+    @StateObject private var metronomeEngine = MetronomeEngine()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(stackStore)
+                .environmentObject(metronomeEngine)
+                .preferredColorScheme(.light)
         }
     }
 }

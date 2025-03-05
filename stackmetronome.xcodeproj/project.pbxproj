@@ -14,6 +14,8 @@
 		1260F0042D78BFD400911BB3 /* stackmetronomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1260F0032D78BFD400911BB3 /* stackmetronomeTests.swift */; };
 		1260F00E2D78BFD400911BB3 /* stackmetronomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1260F00D2D78BFD400911BB3 /* stackmetronomeUITests.swift */; };
 		1260F0102D78BFD400911BB3 /* stackmetronomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1260F00F2D78BFD400911BB3 /* stackmetronomeUITestsLaunchTests.swift */; };
+		1260F01E2D78C26C00911BB3 /* accent.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1260F01C2D78C26B00911BB3 /* accent.wav */; };
+		1260F01F2D78C26C00911BB3 /* tick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1260F01D2D78C26C00911BB3 /* tick.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		1260F0092D78BFD400911BB3 /* stackmetronomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stackmetronomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1260F00D2D78BFD400911BB3 /* stackmetronomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stackmetronomeUITests.swift; sourceTree = "<group>"; };
 		1260F00F2D78BFD400911BB3 /* stackmetronomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stackmetronomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1260F01C2D78C26B00911BB3 /* accent.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = accent.wav; sourceTree = "<group>"; };
+		1260F01D2D78C26C00911BB3 /* tick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tick.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				1260EFF12D78BFD100911BB3 /* stackmetronomeApp.swift */,
 				1260EFF32D78BFD100911BB3 /* ContentView.swift */,
 				1260EFF52D78BFD400911BB3 /* Assets.xcassets */,
+				1260F01C2D78C26B00911BB3 /* accent.wav */,
+				1260F01D2D78C26C00911BB3 /* tick.wav */,
 				1260EFF72D78BFD400911BB3 /* stackmetronome.entitlements */,
 				1260EFF82D78BFD400911BB3 /* Preview Content */,
 			);
@@ -235,6 +241,8 @@
 			files = (
 				1260EFFA2D78BFD400911BB3 /* Preview Assets.xcassets in Resources */,
 				1260EFF62D78BFD400911BB3 /* Assets.xcassets in Resources */,
+				1260F01E2D78C26C00911BB3 /* accent.wav in Resources */,
+				1260F01F2D78C26C00911BB3 /* tick.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
